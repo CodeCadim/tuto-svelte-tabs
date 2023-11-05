@@ -1,16 +1,12 @@
 <svelte:options customElement="app-tabs" />
 
 <script>
-	import Home from "./t_home.svelte";
-	import Services from "./t_services.svelte";
-	import Products from "./t_products.svelte";
-	import About from "./t_about.svelte";
+	import Identity from "./t_identity.svelte";
+	import Password from "./t_password.svelte";
 
 	let tabs = [
-		{ name: "Home", comp: Home },
-		{ name: "Services", comp: Services },
-		{ name: "Products", comp: Products },
-		{ name: "About", comp: About },
+		{ name: "Identity", comp: Identity },
+		{ name: "Password", comp: Password },
 	];
 
 	let cur = tabs[0];
@@ -41,7 +37,7 @@
 		border-color: #b0b #abc #fff;
 	}
 	main {
-		font-size: 2rem;
+		font-size: 1rem;
 		padding: 2rem;
 		border: 1px solid #abc;
 	}
