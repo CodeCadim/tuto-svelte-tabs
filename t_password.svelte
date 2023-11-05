@@ -49,8 +49,8 @@
 		font-size: small;
 	}
 	.valid {
-		background-color: var(--Green-600) !important;
-		color: var(--Green-200) !important;
+		background-color: #38a169 !important;
+		color: #c6f6d5 !important;
 	}
 	.validation {
 		display: flex;
@@ -64,8 +64,8 @@
 		width: 4.5rem;
 	}
 	.validation div div {
-		background-color: var(--Gray-900);
-		color: var(--Gray-700);
+		background-color: #1a202c;
+		color: #4a5568;
 		padding: 0.3rem;
 	}
 	.validation div span {
